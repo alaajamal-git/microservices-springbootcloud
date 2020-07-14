@@ -1,7 +1,9 @@
 # microservices-springbootcloud
-RESTful web sevice with three mapping methods get,post,put,delete
+RESTful web sevice with three mapping methods get,post,put,delete.
+
 GET: http://localhost:8080/users/${userID}
      http://localhost:8080/users?page=10&limits=11
+     
 POST: http://localhost:8080/users
       body:
       <UserRest>
